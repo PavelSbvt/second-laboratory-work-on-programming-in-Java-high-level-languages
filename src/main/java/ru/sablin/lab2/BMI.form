@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ru.sablin.lab2.BMI">
+  <grid id="27dc6" binding="contentPane" layout-manager="GridLayoutManager" row-count="18" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1284" height="686"/>
+    </constraints>
+    <properties>
+      <background color="-16710647"/>
+      <enabled value="false"/>
+      <foreground color="-15920873"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <hspacer id="72529">
+        <constraints>
+          <grid row="4" column="7" row-span="6" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="5f1d4">
+        <constraints>
+          <grid row="4" column="0" row-span="6" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <grid id="3e466" binding="inputValuesPanel" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="2" row-span="6" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15920873"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="df1f8" class="javax.swing.JTextField" binding="heightTextField">
+            <constraints>
+              <grid row="0" column="1" row-span="3" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="37"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-10649715"/>
+              <font name="JetBrains Mono" size="14" style="1"/>
+              <foreground color="-3419422"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="1bb28" class="javax.swing.JLabel" binding="labelWeight">
+            <constraints>
+              <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="JetBrains Mono" size="14" style="1"/>
+              <foreground color="-4998454"/>
+              <text value="Рост"/>
+            </properties>
+          </component>
+          <component id="d55c1" class="javax.swing.JLabel" binding="heightLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="14" style="1"/>
+              <foreground color="-4998454"/>
+              <text value="Вес"/>
+            </properties>
+          </component>
+          <component id="54d00" class="javax.swing.JTextField" binding="fieldWeightTextField">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="37"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-10649715"/>
+              <editable value="true"/>
+              <enabled value="true"/>
+              <font name="JetBrains Mono" size="12" style="1"/>
+              <foreground color="-3419422"/>
+              <horizontalAlignment value="0"/>
+              <text value=""/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <grid id="755f" binding="forFormulaPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="20" bottom="10" right="20"/>
+            <constraints>
+              <grid row="0" column="3" row-span="4" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-10649715"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="76425" class="javax.swing.JLabel" binding="showFormulaLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-4998454"/>
+                  <text value="Формула расчёта ИМТ: вес(кг)/рост(м)^2"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <vspacer id="6c512">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="9" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="e1454">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="9" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="e8a11" binding="imaginaryTabel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="10" right="0"/>
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15920873"/>
+          <foreground color="-4998454"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a8347" class="javax.swing.JLabel" binding="labelTabelSecondColSecondRow">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="JetBrains Mono" size="12" style="1"/>
+              <foreground color="-2500437"/>
+              <text value="Недостаточный вес"/>
+            </properties>
+          </component>
+          <component id="9e6f2" class="javax.swing.JLabel" binding="labelTabelFirstColSecondRow">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="12" style="1"/>
+              <foreground color="-6182728"/>
+              <text value="BMI &lt; 18.5"/>
+            </properties>
+          </component>
+          <component id="1cf54" class="javax.swing.JLabel" binding="labelTabelSecondColThirtRow">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="12" style="1"/>
+              <foreground color="-5776985"/>
+              <text value="Норма"/>
+            </properties>
+          </component>
+          <component id="119d7" class="javax.swing.JLabel" binding="labelTabelFirstColFourthRow">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="12" style="1"/>
+              <foreground color="-6182728"/>
+              <text value="25.0 &lt; BMI &lt; 30.0"/>
+            </properties>
+          </component>
+          <component id="c1565" class="javax.swing.JLabel" binding="labelTabelFirstColThirtRow">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="12" style="1"/>
+              <foreground color="-6182728"/>
+              <text value="18.5 &lt; BMI &lt; 25.0 "/>
+            </properties>
+          </component>
+          <component id="1ff2" class="javax.swing.JLabel" binding="labelTabelSecondColFourthRow">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="12" style="1"/>
+              <foreground color="-2516357"/>
+              <text value="Избыточный вес"/>
+            </properties>
+          </component>
+          <component id="95a49" class="javax.swing.JLabel" binding="labelTableFirstColFifthsRow">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="12" style="1"/>
+              <foreground color="-6182728"/>
+              <text value="30.0 &lt; BMI"/>
+            </properties>
+          </component>
+          <component id="ec9b3" class="javax.swing.JLabel" binding="labelTableSecondColFifthsRow">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="JetBrains Mono" size="12" style="1"/>
+              <foreground color="-4683883"/>
+              <text value="Ожирение"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="245f3">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="9" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="66295" binding="capTablePanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="0" right="10"/>
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10649715"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5aeae" class="javax.swing.JLabel" binding="labelCapTabel1Col">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10649715"/>
+              <font name="JetBrains Mono" size="16" style="1"/>
+              <foreground color="-4998454"/>
+              <text value="    BMI    "/>
+            </properties>
+          </component>
+          <component id="37309" class="javax.swing.JLabel" binding="labelCapTabel2Col">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="16" style="1"/>
+              <foreground color="-4998454"/>
+              <horizontalAlignment value="10"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Интерпретация"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d191b" binding="mainTitlePanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="9" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6297123"/>
+          <foreground color="-7158600"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="53ef0" class="javax.swing.JLabel" binding="labelTitle">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16710647"/>
+              <font name="JetBrains Mono" size="18" style="1"/>
+              <foreground color="-15920873"/>
+              <text value="BMI расчёт индекса массы тела"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <hspacer id="e7339">
+        <constraints>
+          <grid row="11" column="7" row-span="2" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="f0abd">
+        <constraints>
+          <grid row="11" column="0" row-span="2" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="884b0" class="javax.swing.JButton" binding="buttonForRun">
+        <constraints>
+          <grid row="16" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6104682"/>
+          <enabled value="true"/>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-15920873"/>
+          <text value="Рассчитать ИМТ"/>
+        </properties>
+      </component>
+      <hspacer id="bd31a">
+        <constraints>
+          <grid row="16" column="7" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="dbd75">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="91211">
+        <constraints>
+          <grid row="17" column="0" row-span="1" col-span="9" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="56ba" binding="resultsAndInterpritePanel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11900810"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="290c1" class="javax.swing.JLabel" binding="resultTitleLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="16" style="1"/>
+              <foreground color="-4998454"/>
+              <text value="Результат"/>
+            </properties>
+          </component>
+          <grid id="72491" binding="forLabelsTitlesResultsPanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="4" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10649715"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b25ad" class="javax.swing.JLabel" binding="interpritetionTitleLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="30"/>
+                    <maximum-size width="-1" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-6182728"/>
+                  <text value="Интерпритация результата:"/>
+                </properties>
+              </component>
+              <component id="a7c91" class="javax.swing.JLabel" binding="BMITitleLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="30"/>
+                    <maximum-size width="-1" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-10649715"/>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-4998454"/>
+                  <text value="Индекс массы тела (BMI)"/>
+                </properties>
+              </component>
+              <component id="8df73" class="javax.swing.JLabel" binding="recomendationTitleLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-4998454"/>
+                  <text value="Рекомендация"/>
+                </properties>
+              </component>
+              <vspacer id="941b7">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="28fed" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="1" row-span="4" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4998454"/>
+              <foreground color="-4998454"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="ed0a8" class="javax.swing.JLabel" binding="InterpritationShowResultLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="30" height="-1"/>
+                    <preferred-size width="-1" height="30"/>
+                    <maximum-size width="-1" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-15920873"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="4bcb0" class="javax.swing.JLabel" binding="BMIShowResultLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="30"/>
+                    <preferred-size width="-1" height="30"/>
+                    <maximum-size width="-1" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-15920873"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="96ce5" class="javax.swing.JLabel" binding="recomendationShowResultLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-15920873"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <vspacer id="fb0d">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="9" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="44547">
+        <constraints>
+          <grid row="14" column="7" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="e7e70">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <grid id="a1960" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10649715"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7917a" class="javax.swing.JLabel" binding="labelDecodingBMILabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="400" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="14" style="1"/>
+              <foreground color="-4998454"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="75082">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="9" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="5f718">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="317c8">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
