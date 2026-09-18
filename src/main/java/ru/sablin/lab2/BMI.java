@@ -66,8 +66,10 @@ public class BMI {
         labelWeight.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         heightLabel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
-        labelCapTabel1Col.setBorder(BorderFactory.createEmptyBorder(10, 20, 15, 20));
-        labelCapTabel2Col.setBorder(BorderFactory.createEmptyBorder(10, 20, 15, 20));
+        buttonForRun.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+
+        labelCapTabel1Col.setBorder(BorderFactory.createEmptyBorder(0, 20, 15, 20));
+        labelCapTabel2Col.setBorder(BorderFactory.createEmptyBorder(0, 20, 15, 20));
 
         labelTabelFirstColSecondRow.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20));
         labelTabelSecondColSecondRow.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20));
